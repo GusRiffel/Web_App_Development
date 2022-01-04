@@ -1,0 +1,34 @@
+{
+   "name": "5riffg16_webappdev_ae1",
+   "version": "1.0.0",
+   "description": "",
+   "main": "src/app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon app.js"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "bcrypt": "^5.0.1",
+      "body-parser": "^1.19.1",
+      "connect-multiparty": "^2.2.0",
+      "connect-mysql-session": "^0.1.3",
+      "cookie-parser": "^1.4.6",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "express-mysql-session": "^2.1.7",
+      "express-session": "^1.17.2",
+      "mysql2": "^2.3.3",
+      "passport": "^0.5.2",
+      "passport-local": "^1.0.0",
+      "passport-local-sequelize": "^0.9.0",
+      "sequelize": "^4.41.2",
+      "sequelize-session-store": "^0.1.0"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.15",
+      "prettier": "2.5.1"
+   }
+}
